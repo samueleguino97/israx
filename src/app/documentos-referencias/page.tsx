@@ -97,10 +97,25 @@ function Page() {
         Formularios Sereci
       </h2>
       <div className="mt-6 flex flex-wrap gap-16">
-        <Image src={sereci1} alt="Formulario Sereci 1" width={200} />
+        <Image
+          src={sereci1}
+          alt="Formulario Sereci 1"
+          width={400}
+          className="object-fit w-full"
+        />
 
-        <Image src={sereci2} alt="Formulario Sereci 2" width={200} />
-        <Image src={sereci3} alt="Formulario Sereci 3" width={200} />
+        <Image
+          src={sereci2}
+          alt="Formulario Sereci 2"
+          width={400}
+          className="object-fit w-full"
+        />
+        <Image
+          src={sereci3}
+          alt="Formulario Sereci 3"
+          width={400}
+          className="object-fit w-full"
+        />
       </div>
 
       <h2 className="mt-8 text-left text-xl font-bold tracking-tight text-zinc-700 dark:text-zinc-200">
