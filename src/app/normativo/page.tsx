@@ -179,9 +179,9 @@ export default function Normativo() {
           <strong>Procedimiento administrativo ante el SERECI:</strong>
           <br />
           Un ciudadano que tiene un error tipográfico en su nombre —por ejemplo,
-          registrado como &#34Solis&#34 en lugar de &#34Soliz&#34— puede
-          solicitar la corrección directamente al SERECI. Si la solicitud se
-          presenta correctamente con toda la documentación de respaldo, el
+          registrado como &quot;Solis&quot; en lugar de &quot;Soliz&quot; —
+          puede solicitar la corrección directamente al SERECI. Si la solicitud
+          se presenta correctamente con toda la documentación de respaldo, el
           SERECI autoriza la corrección mediante trámite administrativo, sin
           necesidad de recurrir a un proceso judicial.
         </p>
