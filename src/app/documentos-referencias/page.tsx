@@ -82,7 +82,7 @@ function Page() {
             key={linkIndex}
             target="_blank"
             href={link.href}
-            className="flex items-center gap-4 rounded-lg bg-white px-4 py-2 shadow-md ring-1 shadow-zinc-800/5 ring-zinc-900/5 transition hover:bg-zinc-50 dark:bg-zinc-800 dark:ring-0 dark:ring-white/10 dark:hover:bg-zinc-700"
+            className="flex flex-col items-center gap-4 rounded-lg bg-white px-4 py-2 shadow-md ring-1 shadow-zinc-800/5 ring-zinc-900/5 transition hover:bg-zinc-50 md:flex-row md:items-center dark:bg-zinc-800 dark:ring-0 dark:ring-white/10 dark:hover:bg-zinc-700"
           >
             <span className="flex h-10 items-center justify-center rounded-lg bg-zinc-100 px-4 text-sm font-medium text-zinc-800 dark:bg-zinc-800 dark:text-zinc-100">
               {link.title}

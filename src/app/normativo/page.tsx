@@ -1,7 +1,5 @@
-import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import { Metadata } from 'next'
-import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Marco Normativo en Bolivia',
@@ -12,216 +10,191 @@ export const metadata: Metadata = {
 export default function Normativo() {
   return (
     <Container className="mt-16 sm:mt-2 dark:sm:mt-24">
-      <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-1 lg:grid-rows-[auto_1fr] lg:gap-y-4">
-        <div className="pt-16 lg:order-last lg:row-span-2">
-          <h1 className="text-2xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100">
-            Marco Normativo en Bolivia: Leyes N° 018 y N° 025
-          </h1>
-          <div className="mt-8 space-y-5 text-base text-zinc-600 dark:text-zinc-400">
-            <p>
-              La Ley Nº 018, promulgada el 16 de junio de 2010, regula el
-              ejercicio de la función electoral, así como la jurisdicción,
-              competencias, obligaciones, atribuciones, organización,
-              funcionamiento, servicios y el régimen de responsabilidades del
-              Órgano Electoral Plurinacional (OEP). Su objetivo principal es
-              garantizar una democracia intercultural en el Estado Plurinacional
-              de Bolivia.
-            </p>
-            <p>
-              Dentro del marco normativo de esta ley, se establece que su
-              finalidad es normar el ejercicio de la función electoral y
-              asegurar el respeto a la diversidad cultural en la vida
-              democrática del país. El OEP es reconocido como un órgano del
-              poder público con la misma jerarquía constitucional que los
-              Órganos Legislativo, Ejecutivo y Judicial, y actúa bajo los
-              principios de independencia, separación, coordinación y
-              cooperación.
-            </p>
-            <p>
-              El Órgano Electoral Plurinacional está conformado por el Tribunal
-              Supremo Electoral, los Tribunales Electorales Departamentales, los
-              Juzgados Electorales, los Jurados de Mesas de Sufragio y los
-              Notarios Electorales. Para cumplir con los fines establecidos por
-              la ley, el OEP presta servicios a través de distintas entidades,
-              entre ellas el Servicio de Registro Cívico (SERECI).
-            </p>
-          </div>
+      <div className="flex flex-col gap-y-8">
+        <h2 className="text-2xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100">
+          Marco Normativo en Bolivia sobre la rectificación o cambio de Nombre
+        </h2>
+        <h3 className="text-xl font-semibold tracking-tight text-zinc-400 sm:text-2xl dark:text-zinc-100">
+          Leyes N° 018 y N° 025
+        </h3>
 
-          <h1 className="mt-16 text-2xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100">
-            ¿Qué es el SERECI?
-          </h1>
+        <p>
+          En Bolivia, el cambio de nombre está regulado a través de
+          procedimientos administrativos y judiciales. El marco normativo
+          principal se basa en la Ley N° 018 del Órgano Electoral Plurinacional
+          y la Ley N° 025 del Órgano Judicial, las cuales establecen los
+          mecanismos para garantizar los procesos de rectificación o cambio de
+          nombre.
+        </p>
 
-          <div className="mt-8 space-y-5 text-base text-zinc-600 dark:text-zinc-400">
-            <p>
-              El Servicio de Registro Cívico (SERECI) es una entidad pública
-              dependiente del Órgano Electoral Plurinacional, encargada de
-              administrar el registro civil y electoral en Bolivia. Su función
-              principal consiste en registrar y certificar los hechos vitales de
-              las personas, como nacimientos, matrimonios, defunciones, además
-              de gestionar la rectificación y modificación de datos personales,
-              incluyendo el cambio de nombre, mediante un procedimiento
-              administrativo.
-            </p>
-            <p>
-              Artículo 70: Establece que el SERECI tiene la responsabilidad de
-              organizar y administrar el registro de personas naturales en lo
-              que respecta a nombres, apellidos, estado civil, filiación,
-              nacimiento, hechos vitales y defunción, así como también del
-              registro electoral.
-            </p>
-            <p>
-              Artículo 71, numeral 2: Dispone que el SERECI debe registrar
-              hechos como nacimientos, matrimonios, divorcios, defunciones,
-              reconocimientos y la nacionalidad de las personas naturales.
-            </p>
-            <p>
-              Artículo 71, numeral 9:Señala que el SERECI tiene la facultad de
-              rectificar, cambiar o complementar los datos inscritos en el
-              Registro Civil mediante un trámite administrativo gratuito. Esto
-              incluye la corrección de errores, la modificación de datos y la
-              incorporación de información faltante.
-            </p>
+        <h4 className="text-xl font-semibold tracking-tight text-zinc-400 sm:text-2xl dark:text-zinc-100">
+          Ley N° 018 - Ley del Órgano Electoral Plurinacional (2010)
+        </h4>
+        <p>
+          La Ley N° 018, promulgada el 16 de junio de 2010, regula el ejercicio
+          de la función electoral, así como la jurisdicción, competencias,
+          obligaciones, atribuciones, organización, funcionamiento, servicios y
+          el régimen de responsabilidades del Órgano Electoral Plurinacional
+          (OEP). Su objetivo principal es garantizar una democracia
+          intercultural en el Estado Plurinacional de Bolivia.
+        </p>
+        <p>
+          La ley establece que el OEP tiene la misma jerarquía constitucional
+          que los Órganos Legislativo, Ejecutivo y Judicial, actuando bajo los
+          principios de independencia, separación, coordinación y cooperación.
+          El OEP está conformado por el Tribunal Supremo Electoral, los
+          Tribunales Electorales Departamentales, los Juzgados Electorales, los
+          Jurados de Mesas de Sufragio y los Notarios Electorales.
+        </p>
+        <p>
+          Entre las entidades que prestan servicios bajo el OEP, se encuentra el
+          Servicio de Registro Cívico (SERECI).
+        </p>
 
-            <p>
-              Artículo 73: Regula el procedimiento para la rectificación o
-              cambio de nombre. La solicitud debe presentarse ante la Dirección
-              Departamental del SERECI correspondiente, junto con los documentos
-              que respalden la causa del cambio y la identidad del solicitante.
-              El SERECI tiene un plazo de 15 días para emitir una resolución
-              administrativa que autorice o rechace la solicitud. En caso de que
-              falten requisitos, se notificará al solicitante para que los
-              subsane.
-            </p>
-          </div>
+        <h5 className="text-xl font-semibold tracking-tight text-zinc-400 sm:text-2xl dark:text-zinc-100">
+          ¿Qué es el SERECI?
+        </h5>
+        <p>
+          El Servicio de Registro Cívico (SERECI) es una entidad pública
+          dependiente del Órgano Electoral Plurinacional, encargada de
+          administrar el registro civil y electoral en Bolivia. Su función
+          principal es registrar y certificar hechos vitales como nacimientos,
+          matrimonios y defunciones, así como gestionar rectificaciones,
+          complementaciones y cambios de datos personales, incluyendo el cambio
+          de nombre mediante un procedimiento administrativo.
+        </p>
 
-          <h1 className="mt-16 text-2xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100">
-            Leyes N° 018 y N° 025
-          </h1>
-          <h2 className="mt-6 text-xl font-semibold tracking-tight text-zinc-400 sm:text-2xl dark:text-zinc-100">
-            Ley N° 018 - Ley del Órgano Electoral Plurinacional (2010)
-          </h2>
-          <div className="mt-8 space-y-5 text-base text-zinc-600 dark:text-zinc-400">
-            <p>
-              Texto oficial completo en PDF:
-              <p className="relative z-10 mt-2 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
-                <Link href="https://oep.org.bo/wp-content/uploads/2017/01/Ley_018.pdf">
-                  https://oep.org.bo/wp-content/uploads/2017/01/Ley_018.pdf
-                </Link>
-              </p>
-            </p>
-          </div>
-
-          <h2 className="mt-6 text-xl font-semibold tracking-tight text-zinc-400 sm:text-2xl dark:text-zinc-100">
-            Ley N° 018 - Ley del Órgano Electoral Plurinacional (2010)
-          </h2>
-          <div className="mt-8 space-y-5 text-base text-zinc-600 dark:text-zinc-400">
-            <p>
-              Ley N° 025 (Ley del Órgano Judicial): Según el artículo 69 de la
-              Ley N° 025, los juzgados civiles y comerciales tienen competencia
-              para conocer y decidir sobre los procesos de rectificación o
-              cambio de nombre. Esto implica que cuando una persona no puede
-              realizar el cambio de nombre mediante el procedimiento
-              administrativo en el SERECI (por ejemplo, porque existen
-              controversias, oposición de terceros o causas no contempladas en
-              la Ley N° 018), debe acudir a estos juzgados para iniciar un
-              proceso judicial. El procedimiento ordinario se inicia con la
-              presentación de una demanda regularmente contra el mismo SERECI
-              ante el juzgado correspondiente, donde el interesado expone los
-              motivos fundados para solicitar el cambio de nombre.
-            </p>
-            <ul className="list-disc space-y-2 pl-6">
-              <li>
-                Se notifica a terceros que puedan tener interés en el caso, para
-                que puedan presentar oposición si la hubiera.
-              </li>
-              <li>
-                Se evalúan las pruebas presentadas para justificar el cambio.{' '}
-              </li>
-              <li>
-                Se realiza una audiencia donde las partes pueden exponer sus
-                argumentos.
-              </li>
-            </ul>
-            <p>
-              El juez toma una decisión basada en la protección de la identidad,
-              la dignidad del solicitante y el interés público, autorizando o
-              denegando el cambio de nombre. Ley N° 025 - Ley del Órgano
-              Judicial (Tribunal Supremo de Justicia, 2010)
-              <p className="relative z-10 mt-2 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
-                <Link href="https://tsj.bo/wp-content/uploads/2019/11/ley-025-ley-del-organo-judicial.pdf">
-                  https://tsj.bo/wp-content/uploads/2019/11/ley-025-ley-del-organo-judicial.pdf
-                </Link>
-              </p>
-            </p>
-          </div>
-
-          <div className="h-4" />
-
-          <h2 className="mb-6 text-xl font-semibold tracking-tight text-zinc-400 sm:text-2xl dark:text-zinc-100">
-            Relación y coordinación entre ambos órganos
-          </h2>
-
-          <div className="mt-8 space-y-5 text-base text-zinc-600 dark:text-zinc-400">
-            <p>
-              El SERECI atiende procedimientos administrativos, que son más
-              ágiles, menos costosos y aplicables en casos claros y sin
-              conflictos. El Órgano Judicial interviene cuando el caso requiere
-              un análisis más profundo, existen controversias o la ley no
-              permite la vía administrativa. Sin embargo, ambos órganos
-              garantizan el derecho al nombre, ofreciendo vías adecuadas según
-              la complejidad y naturaleza del caso.
-            </p>
-            <p>
-              SERECI: Corrección de errores, cambios por razones de dignidad o
-              identidad sin controversias.
-            </p>
-            <p>
-              Órgano Judicial: Cambios complejos, disputas legales, o cuando se
-              requiere autorización judicial para modificaciones no contempladas
-              en la vía administrativa.
-            </p>
-          </div>
-
-          <h2 className="mb-6 pt-6 text-xl font-semibold tracking-tight text-zinc-400 sm:text-2xl dark:text-zinc-100">
-            Ejemplos Practicos
-          </h2>
-          <ul
-            role="list"
-            className="grid grid-cols-1 gap-x-12 gap-y-10 sm:grid-cols-2 lg:grid-cols-2"
+        <p>
+          <strong>Principales artículos de la Ley N° 018:</strong>
+        </p>
+        <ul>
+          <li>
+            <strong>Artículo 70:</strong> El SERECI organiza y administra el
+            registro de personas naturales en aspectos como nombres, apellidos,
+            estado civil, filiación, nacimiento y defunción.
+          </li>
+          <li>
+            <strong>Artículo 71, numeral 9:</strong> Faculta al SERECI para
+            corregir, cambiar o complementar datos del registro civil mediante
+            un trámite administrativo gratuito.
+          </li>
+          <li>
+            <strong>Artículo 73:</strong> Establece que es competencia del
+            SERECI realizar la rectificación de errores y la complementación de
+            datos, en el caso del nombre, mediante trámite administrativo en
+            situaciones no contenciosas.
+          </li>
+        </ul>
+        <p>
+          👉 Consulta aquí la Ley N° 018 completa:
+          <a
+            href="https://www.oep.org.bo/wp-content/uploads/2017/01/Ley_018.pdf"
+            className="text-orange-400"
           >
-            <Card
-              as="li"
-              className="rounded-2xl bg-zinc-100 px-4 py-6 dark:bg-zinc-800"
-            >
-              <h2 className="text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                Situación administrativa
-              </h2>
-              <Card.Description>
-                Una persona cuyo nombre fue registrado con un error tipográfico
-                puede solicitar al SERECI la corrección mediante trámite
-                administrativo. Como por ejemplo alguien que esté registrado con
-                el apellido Solis, pero, en realidad sea Soliz. Si el SERECI
-                verifica la solicitud y documentos, autoriza la corrección sin
-                necesidad de juicio.
-              </Card.Description>
-            </Card>
+            Texto oficial en PDF
+          </a>
+        </p>
 
-            <Card
-              as="li"
-              className="rounded-2xl bg-zinc-100 px-4 py-6 dark:bg-zinc-800"
-            >
-              <h2 className="text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                Situación judicia
-              </h2>
-              <Card.Description>
-                Una persona que desea cambiar su nombre completo por causas
-                fundadas como que su nombre actual genera discriminación, debe
-                iniciar un proceso judicial. El juez evaluará el caso y decidirá
-                si procede el cambio.
-              </Card.Description>
-            </Card>
-          </ul>
-        </div>
+        <h4 className="text-xl font-semibold tracking-tight text-zinc-400 sm:text-2xl dark:text-zinc-100">
+          Ley N° 025 - Ley del Órgano Judicial (2010)
+        </h4>
+        <p>
+          La Ley N° 025, conocida como la Ley del Órgano Judicial, establece en
+          su Artículo 69 que los juzgados civiles y comerciales tienen
+          competencia para conocer y decidir sobre los procesos de rectificación
+          o cambio de nombre.
+        </p>
+        <p>
+          Esto significa que cuando una persona no puede realizar el cambio de
+          nombre por la vía administrativa —por ejemplo, debido a la existencia
+          de controversias, oposición de terceros o causas no contempladas por
+          la Ley N° 018— debe recurrir a la vía judicial.
+        </p>
+
+        <p>
+          <strong>Procedimiento judicial:</strong>
+        </p>
+        <ul>
+          <li>
+            Se inicia un proceso ordinario presentando una demanda, regularmente
+            dirigida contra el mismo SERECI.
+          </li>
+          <li>
+            El interesado expone los motivos fundados para solicitar el cambio
+            de nombre.
+          </li>
+          <li>
+            Se notifica a posibles terceros interesados para que puedan
+            manifestar oposición si existiera.
+          </li>
+          <li>Se evalúan las pruebas presentadas para justificar el cambio.</li>
+          <li>
+            Se lleva a cabo una audiencia donde las partes pueden exponer sus
+            argumentos.
+          </li>
+          <li>
+            El juez emite una sentencia basada en la protección de la identidad,
+            la dignidad del solicitante y el interés público, autorizando o
+            denegando el cambio.
+          </li>
+        </ul>
+        <p>
+          👉 Consulta aquí la Ley N° 025 completa:{' '}
+          <a
+            href="https://tsj.bo/wp-content/uploads/2019/11/ley-025-ley-del-organo-judicial.pdf"
+            className="text-orange-400"
+          >
+            Texto oficial en PDF
+          </a>
+        </p>
+
+        <h4 className="text-xl font-semibold tracking-tight text-zinc-400 sm:text-2xl dark:text-zinc-100">
+          Relación y Coordinación entre SERECI y Órgano Judicial
+        </h4>
+        <p>
+          Existe una coordinación clara entre ambas vías, cada una según la
+          naturaleza y complejidad del caso:
+        </p>
+        <ul>
+          <li>
+            <strong>SERECI:</strong> Atiende trámites administrativos más
+            ágiles, gratuitos y aplicables en casos de correcciones simples, sin
+            controversias.
+          </li>
+          <li>
+            <strong>Órgano Judicial:</strong> Interviene en casos complejos que
+            requieren un análisis más profundo, en disputas legales o cuando no
+            es posible utilizar la vía administrativa.
+          </li>
+        </ul>
+        <p>
+          De este modo, se garantiza el derecho al nombre a través de vías
+          diferenciadas según las necesidades de cada situación.
+        </p>
+
+        <h4 className="text-xl font-semibold tracking-tight text-zinc-400 sm:text-2xl dark:text-zinc-100">
+          Ejemplos Prácticos
+        </h4>
+        <p>
+          <strong>Procedimiento administrativo ante el SERECI:</strong>
+          <br />
+          Un ciudadano que tiene un error tipográfico en su nombre —por ejemplo,
+          registrado como &#34Solis&#34 en lugar de &#34Soliz&#34— puede
+          solicitar la corrección directamente al SERECI. Si la solicitud se
+          presenta correctamente con toda la documentación de respaldo, el
+          SERECI autoriza la corrección mediante trámite administrativo, sin
+          necesidad de recurrir a un proceso judicial.
+        </p>
+
+        <p>
+          <strong>Procedimiento judicial:</strong>
+          <br />
+          Una persona que considera que su nombre completo le genera
+          discriminación y afecta su dignidad debe iniciar un proceso judicial
+          para cambiarlo. El juez, luego de analizar las pruebas y los
+          argumentos, resolverá si procede o no la autorización del cambio de
+          nombre.
+        </p>
       </div>
     </Container>
   )
