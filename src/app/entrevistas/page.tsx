@@ -11,14 +11,14 @@ export const metadata: Metadata = {
 
 const interviews = [
   {
-    title: 'ENTREVISTA SERECI',
+    title: 'Entrevista 1: César Campos - Funcionario de SERECI, mesa 2',
     dialogue: [
       {
         speaker: 'Entrevistador',
         text: 'Buenas tardes. ¿Podría darnos una breve introducción sobre la función del SERECI en relación al cambio de nombre y correcciones de partidas?',
       },
       {
-        speaker: 'César Campos (SERECI)',
+        speaker: 'César Campos - Funcionario de SERECI, mesa 2',
         text: 'Buenas tardes. Mi nombre es César Campos. En el SERECI nos encargamos de tramitar cambios y correcciones en los registros civiles, conforme a lo establecido en la Ley 018 y la Ley 080. Aunque no efectuamos cambios de nombre por voluntad propia de los titulares —esa competencia corresponde al órgano judicial— sí realizamos correcciones, rectificaciones, complementaciones y algunas modificaciones en base a documentos de filiación. Cada trámite es diferente y se analiza de forma particular. Lo que más atendemos, por ejemplo, son casos en los que se requiere igualar las partidas de nacimiento de todos los hermanos. Esto sucede cuando, al tramitar un certificado de descendencia, se detectan errores en los nombres o apellidos de los padres en las partidas de nacimiento de los hijos. En esos casos solicitamos documentos de filiación, como certificados de matrimonio o actas de reconocimiento, que nos permitan corregir y completar la información de manera adecuada. Si los padres se casaron después del nacimiento de los hijos, utilizamos los documentos de legitimación correspondientes para realizar la corrección.',
       },
       {
@@ -26,7 +26,7 @@ const interviews = [
         text: 'Perfecto. Como usted mencionaba, el cambio de nombre voluntario es competencia del órgano judicial. ¿Qué sucede cuando una persona ya cuenta con una sentencia judicial para el cambio de nombre? ¿Cómo actúa el SERECI en ese caso?',
       },
       {
-        speaker: 'César Campos (SERECI)',
+        speaker: 'César Campos - Funcionario de SERECI, mesa 2',
         text: 'Cuando llega una sentencia judicial, el procedimiento es mucho más sencillo. La orden del juez no se discute, simplemente se acata. Tenemos una ventanilla especializada (Ventanilla 15) donde los juzgados entregan los testimonios de sentencia. La persona interesada recoge el documento y, tras verificar su autenticidad, procedemos a registrar la corrección o cambio de nombre en la partida de nacimiento. Lo que analizamos principalmente es el "Por Tanto" de la sentencia, que es donde el juez dispone expresamente el cambio. No revisamos el resto del contenido procesal.',
       },
       {
@@ -34,7 +34,7 @@ const interviews = [
         text: 'Respecto a los trámites administrativos de corrección, ¿cuánto tiempo suelen demorar, aproximadamente, y tienen algún costo?',
       },
       {
-        speaker: 'César Campos (SERECI)',
+        speaker: 'César Campos - Funcionario de SERECI, mesa 2',
         text: 'Los trámites administrativos en el SERECI son gratuitos a nivel nacional. Una vez que el interesado presenta toda la documentación necesaria (certificados de matrimonio, actas de reconocimiento, sentencia judicial, etc.), la corrección en ventanilla puede realizarse en aproximadamente 10 a 15 minutos. Claro que este tiempo se refiere al momento en que el trámite ya ha sido admitido en ventanilla; antes de eso, puede haber un pequeño periodo de verificación en sala.',
       },
       {
@@ -42,7 +42,7 @@ const interviews = [
         text: 'En relación con las personas transgénero, ¿pueden realizar el cambio de nombre y sexo directamente en el SERECI?',
       },
       {
-        speaker: 'César Campos (SERECI)',
+        speaker: 'César Campos - Funcionario de SERECI, mesa 2',
         text: 'Sí. El procedimiento para personas transgénero está regulado por la Ley 807 de Identidad de Género. Esta norma permite a las personas cambiar su nombre y su género registrado mediante un trámite administrativo en el SERECI, siguiendo los requisitos establecidos en la ley. El procedimiento está claramente detallado en dicha normativa.',
       },
       {
@@ -50,7 +50,7 @@ const interviews = [
         text: 'Finalmente, ¿qué criterios utilizan ustedes como SERECI para determinar si una solicitud administrativa procede o si debe ser derivada a la vía judicial?',
       },
       {
-        speaker: 'César Campos (SERECI)',
+        speaker: 'César Campos - Funcionario de SERECI, mesa 2',
         text: 'El principal criterio es la existencia de pruebas documentales válidas. Si una persona solicita la corrección de un apellido, pero no presenta certificados de matrimonio, actas de reconocimiento o documentos que respalden el cambio, no podemos intervenir. En esos casos, derivamos necesariamente a la vía judicial. Otro ejemplo: si ya se realizó una corrección administrativa en el pasado (por ejemplo, cambiar de "Solís" con "s" a "Solíz" con "z") y ahora quieren volver al nombre anterior, tampoco podemos modificarlo nuevamente por la vía administrativa; tendría que resolverse por medio de un proceso judicial.',
       },
       {
@@ -262,7 +262,7 @@ const interviews = [
     ],
   },
   {
-    title: 'Entrevista 4: Juez Héctor Blanco Vargas',
+    title: 'Entrevista 4: Juez Héctor Blanco Vargas - Civil Comercial 6',
     dialogue: [
       {
         speaker: 'Entrevistador',

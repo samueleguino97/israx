@@ -66,10 +66,8 @@ export default async function Home() {
             </h2>
             <ul className="space-y-2 pl-6">
               <li>Ricardo Ugarte Peredo</li>
-              <li>Pablo Sebastián Rivas</li>
-              <li>Coronado Israel</li>
-              <li>Rodrigo Celiz</li>
-              <li>Caero Correo electrónico</li>
+              <li>Pablo Sebastián Rivas Coronado</li>
+              <li>Israel Rodrigo Celiz Caero</li>
             </ul>
             <h3 className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
               Correo electrónico o medio de contacto para consultas.

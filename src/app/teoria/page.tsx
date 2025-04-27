@@ -44,13 +44,9 @@ export default function Teoria() {
           </div>
 
           <h1 className="mt-16 text-2xl font-bold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100">
-            Antecedentes Generales del Derecho al Nombre y su Reconocimiento
-            Internacional
+            Antecedentes Generales del Nombre
           </h1>
 
-          <h2 className="mt-6 text-xl font-semibold tracking-tight text-zinc-400 sm:text-2xl dark:text-zinc-100">
-            Breve recorrido histórico desde los orígenes del Nombre
-          </h2>
           <div className="mt-8 space-y-5 text-base text-zinc-600 dark:text-zinc-400">
             <p>
               Desde tiempos inmemoriales, el nombre ha sido el principal medio
@@ -111,60 +107,34 @@ export default function Teoria() {
           </h2>
           <div className="mt-8 space-y-5 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              Desde tiempos inmemoriales, el nombre ha sido el principal medio
-              para designar e identificar a las personas dentro de cualquier
-              sociedad. En las primeras civilizaciones, donde las comunidades
-              eran pequeñas y las relaciones personales directas, un nombre
-              individual bastaba para distinguir a cada miembro. Sin embargo, a
-              medida que las poblaciones crecieron y las sociedades se hicieron
-              más complejas, esta forma básica de identificación resultó
-              insuficiente para diferenciar claramente a cada individuo.
+              Históricamente, algunas doctrina, como la francesa, consideraban
+              el nombre como un derecho de propiedad del titular. Sin embargo,
+              esta concepción fue superada por la doctrina moderna, que entiende
+              el nombre como un derecho de la personalidad. Esto se debe a que
+              el nombre es un bien inmaterial, fuera del comercio y sin
+              contenido económico, características incompatibles con la noción
+              de propiedad.
             </p>
             <p>
-              En la antigua Roma se desarrolló un sistema de nombres mucho más
-              elaborado y estructurado. Cada ciudadano romano poseía un
-              praenomen o nombre personal, que era el equivalente a nuestro
-              nombre de pila. A este se añadía el nomen, que indicaba la
-              pertenencia a una familia o clan, conocido como gens. Finalmente,
-              en muchos casos se sumaba un tercer nombre, el cognomen, que
-              funcionaba como un sobrenombre o apelativo para distinguir a los
-              individuos dentro de una misma familia. Este sistema tripartito no
-              solo facilitaba la identificación personal, sino que también
-              reflejaba la posición social, el linaje y, en ocasiones,
-              características personales o logros. Este modelo romano sentó las
-              bases para la formación de los apellidos modernos en muchas
-              culturas occidentales.
+              Actualmente, el nombre se reconoce como un derecho personalísimo,
+              inseparable de la persona, ya que forma parte integral de la
+              identidad y dignidad humana. Además, cumple una función de orden
+              público, pues sirve para la identificación y seguridad social,
+              garantizando la individualización de cada persona en la sociedad y
+              el sistema jurídico.
             </p>
             <p>
-              No obstante, esta práctica no fue exclusiva de Roma. Otros
-              pueblos, especialmente los germánicos, desarrollaron sistemas
-              complementarios de identificación basados en la filiación y la
-              descendencia. Era común el uso de expresiones patronímicas “ing”
-              (hijo de), como en “Johann Harting” que significa Johann hijo de
-              Hart. Con la llegada de los visigodos -un pueblo germánico que se
-              asentó en la península ibérica durante la Edad Media- esta
-              costumbre se consolidó y evolucionó dentro del contexto de las
-              lenguas romances que allí se hablaban. Así surgió el uso del
-              sufijo “-ez”, que significa literalmente “hijo de”, dando origen a
-              apellidos tan comunes como Fernández (hijo de Fernando), González
-              (hijo de Gonzalo) o Martínez (hijo de Martín).
-            </p>
-            <p>
-              Además de la filiación, los sobrenombres y apellidos también
-              podían derivar de la profesión, características físicas o rasgos
-              personales. Por ejemplo, una persona dedicada a la herrería podía
-              ser conocida como “Arturo Herrero”, mientras que alguien con
-              cabello claro podía recibir un apelativo como “Arturo Rubio”.
-              Estas denominaciones reflejaban aspectos sociales y culturales y
-              ayudaban a identificar a las personas de manera más precisa en
-              comunidades cada vez más grandes y complejas.
+              Por tanto, jurídicamente, el nombre es el conjunto de palabras o
+              signos que identifican e individualizan a una persona dentro de
+              una comunidad determinada, permitiéndole ejercer sus derechos y
+              ser reconocida en el ámbito social y jurídico.
             </p>
           </div>
 
           <div className="h-4" />
 
           <h2 className="mb-6 text-xl font-semibold tracking-tight text-zinc-400 sm:text-2xl dark:text-zinc-100">
-            Definición jurídica del nombre:
+            Características del Nombre
           </h2>
 
           <ul
@@ -223,7 +193,7 @@ export default function Teoria() {
               className="rounded-2xl bg-zinc-100 px-4 py-6 dark:bg-zinc-800"
             >
               <h2 className="text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                Extrapatrimonial
+                Inmutable
               </h2>
               <Card.Description>
                 La inmutabilidad del nombre significa que, en principio, no
@@ -301,21 +271,6 @@ export default function Teoria() {
                 padres o por otros homónimos, debido a la comisión de delitos
                 graves, actos inhumanos o situaciones que hayan causado
                 notoriedad negativa, afectando la dignidad del titular.
-              </Card.Description>
-            </Card>
-
-            <Card
-              as="li"
-              className="rounded-2xl bg-zinc-100 px-4 py-6 dark:bg-zinc-800"
-            >
-              <h2 className="text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                Extrapatrimonial
-              </h2>
-              <Card.Description>
-                El nombre no tiene un valor económico y no puede ser objeto de
-                comercio ni de derechos patrimoniales. Esto protege la
-                integridad personal y evita que el nombre se utilice como un
-                bien susceptible de explotación comercial.
               </Card.Description>
             </Card>
           </ul>
