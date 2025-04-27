@@ -34,13 +34,18 @@ const links = [
     title: 'Resolución TSE-RSP N° 080/2012',
     description:
       'Reglamento de rectificación, cambio, complementación, ratificación, reposición, cancelación y traspaso de partidas del Registro Civil emitido por el Tribunal Supremo Electoral de Bolivia',
-    href: 'https://www.oep.org.bo/wp-content/uploads/normativa/resoluciones/2016/resolucion080-16022016.pdf',
+    href: 'https://www.oep.org.bo/wp-content/uploads/2023/02/RESOLUCION-080-2012-REGLAMENTO-RECTIFICACION-CAMBIO-COMPLEMENTACION-RATIFICACION-RESPOSICION-CANCELACION-TRASPASO.pdf',
   },
   {
     title: 'Ley N° 807 de Identidad de Género',
     description:
       'Ley de Identidad de Género que establece el procedimiento para el cambio de nombre propio, dato de sexo e imagen de personas transexuales y transgénero en Bolivia',
     href: 'https://www.coordinadoradelamujer.org.bo/observatorio/archivos/marco/bolivialey807leydeidentidaddegnero22mai16_467.pdf',
+  },
+  {
+    title: 'La Persona y Sus Atributos - Ricardo Treviño Garcia',
+    description: '',
+    href: 'https://www.corteidh.or.cr/tablas/23961.pdf',
   },
 ]
 
@@ -84,10 +89,10 @@ function Page() {
             href={link.href}
             className="flex flex-col items-center gap-4 rounded-lg bg-white px-4 py-2 shadow-md ring-1 shadow-zinc-800/5 ring-zinc-900/5 transition hover:bg-zinc-50 md:flex-row md:items-center dark:bg-zinc-800 dark:ring-0 dark:ring-white/10 dark:hover:bg-zinc-700"
           >
-            <span className="flex h-10 items-center justify-center rounded-lg bg-zinc-100 px-4 text-sm font-medium text-zinc-800 dark:bg-zinc-800 dark:text-zinc-100">
+            <span className="flex h-10 items-center justify-center rounded-lg bg-zinc-100 px-4 py-2 text-sm font-medium text-zinc-800 dark:bg-zinc-800 dark:text-zinc-100">
               {link.title}
             </span>
-            <span className="text-sm font-medium text-zinc-600 dark:text-zinc-400">
+            <span className="py-2 text-sm font-medium text-zinc-600 dark:text-zinc-400">
               {link.description}
             </span>
           </a>
